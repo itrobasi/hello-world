@@ -14,7 +14,7 @@ body{
 .container-a { /* comment text, comment text */
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(#04091eb3,#04091eb3),url(images/bg-0.jpg);
+  background-image: linear-gradient(#04091eb3,#04091eb3),url(images/bg-1.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
