@@ -1,37 +1,63 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+    <!--Variable (i think) for the veiwport-->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+    <!--Title for the Website-->
+    <title>African Technologies</title>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+    <!--Link to the styling CSS sheet-->
+    <link rel="stylesheet" href="style-lm.css">
 
-   <h1> Thankyou, Happy Learning </h1>
+    <!--googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-  
-</form>
+  </head>
+
+  <body>
+      <div class="container-a"> <!--This contains all the objects items on the page-->
+
+        <div class="container-logo"> <!--Logo for the website here-->
+          <img class="site-logo" src="images/atlogo-d.png" alt="African Technologies" width="90%">
+        </div>
+
+        <div class="container-form"> <!--Search br/form to search for stuff-->
+
+          <form class="form-search" action="index.html" method="">
+            <input class="search-field" type="text" name="name" value="Search our collection of African Technologies!">
+            <input class="search-button" type="submit" name="" value="AFT Search">
+          </form>
+
+        </div>
+
+        <div class="container-locations"><!--Contains the three locations at the bottom of the Webpage-->
+          <ul class="footer">
+            <li>
+              <div class="locations">
+                <h2>Kenyan -Nairobi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="locations">
+                <h2>Nigeria -Owerri</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="locations">
+                <h2>Burundi -Gitega</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </body>
+</html>
